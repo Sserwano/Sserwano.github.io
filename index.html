@@ -504,5 +504,20 @@ WhatsApp Me
   © 2026 MOTION VIBES — Never Walk Alone.
 </footer>
 
+<script>
+function searchYouTube() {
+  const search = document.getElementById("youtubeSearch").value.trim();
+
+  if (!search) {
+    alert("Please enter a song or artist.");
+    return;
+  }
+
+  const url = "https://www.youtube.com/results?search_query=" 
+            + encodeURIComponent(search);
+
+  window.open(url, "_blank");
+}
+</script>
 </body>
   </html>
