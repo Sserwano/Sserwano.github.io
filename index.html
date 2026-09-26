@@ -478,7 +478,29 @@ WhatsApp Me
 
 </section>
 
-<footer>
+<section id="youtube" style="padding:30px 15px;">
+  <h2>🎵 YouTube Music</h2>
+  <p>Search for any song or artist</p>
+
+  <div style="display:flex;gap:8px;flex-wrap:wrap;">
+    <input
+      id="youtubeSearch"
+      type="text"
+      placeholder="Search a song or artist..."
+      style="flex:1;padding:12px;border-radius:8px;border:1px solid #ccc;"
+    >
+
+    <button
+      onclick="searchYouTube()"
+      style="padding:12px 18px;border:0;border-radius:8px;cursor:pointer;"
+    >
+      🔎 Search
+    </button>
+  </div>
+
+  <div id="youtubeResults" style="margin-top:20px;"></div>
+  </section>
+  <footer>
   © 2026 MOTION VIBES — Never Walk Alone.
 </footer>
 
